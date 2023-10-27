@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# print best school 10 times using until
+var=1
+School="Best School"
+until ((var > 10)); do
+    echo "$School"
+    ((var++))
+done

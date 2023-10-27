@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#say hi when it 9 using if
+var=1
+School="Best School"
+while ((var <= 10)); do
+    if [ $var -eq 9 ]; then
+        echo "Best School"
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    ((var++))
+done

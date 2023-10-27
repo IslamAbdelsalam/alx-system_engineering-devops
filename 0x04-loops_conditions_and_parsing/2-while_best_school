@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#using while to print "Best School"
+var=0
+School="Best School"
+while ((var < 10)); do
+    echo "$School"
+    ((var++))
+done
